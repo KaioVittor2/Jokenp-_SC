@@ -5,7 +5,7 @@
 ### **Regras Gerais:**
 - Tudo será iniciado pelo rei dos jogos, ou seja, o dono do contrato. Ele quem definirá quais serão os jogadores que duelarão pelo poder e a glória!
 - As regras são simples: Cada jogador autorizado poderá criar um jogo ou participar de jogos. Caso o jogador não seja altorizado ele não poderá fazer nada.
-- O jogador que criar um jogo deverá incluir sua primeira jogada enquanto espera algum desafiante tentar ganhar de dele
+- O jogador que criar um jogo deverá incluir sua primeira jogada enquanto delimita um desafiante para tentar ganhar de dele
 - O corajoso capaz de enfrentar o desafiante poderá escolher sua jogada (sem ver a jogada do outro jogador)
 - Por fim, ao haver ambos jogados, qualquer um poderá verificar os resultados dos jogos e o vitorioso!
 
@@ -29,16 +29,6 @@
     Aqui deve ter a lógica de definir o vencedor.
 8. Criar função para Ver resultados de jogos (busca resultado pelo mapping)
 
-### Requisitos da Atividade:
+### Resultados
 
-Para cumprir esta atividade, você deve:
-
-(até 2,0 pontos) 1 - Utilizar GitHub para versionamento, com branches e pull requests. Você deve seguir boas práticas de desenvolvimento e controle de versão.
-
-(até 2,0 pontos) 2 - Definir e documentar as regras de negócio no arquivo Markdown.
-
-(até 2,0 pontos) 3 - Seu código deve definir e armazenar as jogadas dos jogadores no contrato. Deve existir um mecanismo para que as jogadas passadas sejam registradas no contrato, garantindo integridade dos dados. Estas jogadas devem ser consultadas quando necessário.
-
-(até 2,0 pontos) 4 – Seu código deve contemplar uma forma de comparar as jogadas e determinar um vencedor, considerando inclusive a possibilidade de empate e nova rodada.
-
-(até 2,0 pontos) 5 – Seu código deve assegurar que apenas participantes legítimos possam jogar. Você também deve aplicar regras de controle de acesso para que somente o dono do contrato possa modificar dados críticos no contrato.
+Muitas das funções a atividades da arquitetura foi cumprida mas não em sua completude. Houve a criação das funções de criar novos jogadores e novas jogadas mas não houve a delimitação de vencedores. o código contem funções n feitas em comentários. Já os testes não foi possível de fazer pelo tempo.
